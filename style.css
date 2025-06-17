@@ -1,0 +1,135 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+:root{
+  --highlight-color: #074783;
+  --secondhighlight-color: #9CA4AE;
+  --container-color: #EBE9E4;
+}
+
+body{
+  background: linear-gradient(to right, #313756, #9CA4AE);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 540px;
+  padding: 40px 30px 10px;
+  margin: 50px auto 20px;
+  background: var(--container-color);
+  border: 0.5rem solid var(--highlight-color);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.container h2{
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 1%;
+  text-align: left;
+}
+
+.container p{
+  margin-bottom: 1rem;
+}
+
+.container input{
+  width: 100%;
+  font-size: 16px;
+  outline: none;
+  padding: 10px;
+  background: transparent;
+  border: 3px solid var(--highlight-color);
+  border-radius: 10px;
+}
+
+.container button {
+  border: none;
+  outline: none;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 16px 50px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 40px;
+  background: var(--highlight-color);
+  color: var(--container-color);
+}
+
+#temp{
+  font-size: 50px;
+}
+
+#info{
+  font-size: 20px;
+}
+
+#weather-icon{
+  width: 200px;
+  height: 200px;
+  background: var(--secondhighlight-color);
+  border-radius: 75px;
+  margin: auto;
+  display: none;
+}
+
+#hourly-forecast{
+  margin-top: 50px;
+  overflow-x: auto;
+  white-space: nowrap;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hourly-item {
+  flex: 0 0 auto;
+  width: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+  color: var(--highlight-color);
+}
+
+.hourly-item img {
+  width: 30px;
+  height: 30px;
+  background: var(--secondhighlight-color);
+  border-radius: 50px;
+  margin-bottom: 5px;
+}
+
+#hourly-heading {
+  color: var(--highlight-color);
+  margin-top: 10px;
+}
+
+/*bottom bar styling*/
+  .footer {
+    font-size: 1rem;
+    color: var(--container-color);
+    height: 1rem;
+    background: var(--highlight-color);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    cursor: pointer;
+  }
+
+.footer a{
+  color: var(--container-color);
+}
+
+@media (max-width: 450px) {
+  .container {
+    width: 90%;
+  }
+}
