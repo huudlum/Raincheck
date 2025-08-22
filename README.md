@@ -1,4 +1,5 @@
 Raincheck 🌦️
+
 Raincheck is a minimalist, single-page weather application built with pure front-end technologies. It demonstrates a clean, accessible example of a client-side web app that fetches and displays real-time weather data and a 24-hour forecast from a third-party API.
 
 Here's a breakdown of the skills demonstrated in this project:
