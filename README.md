@@ -1,17 +1,19 @@
-Raincheck 🌦️
+#Raincheck 🌦️
 
 Raincheck is a minimalist, single-page weather application built with pure front-end technologies. It demonstrates a clean, accessible example of a client-side web app that fetches and displays real-time weather data and a 24-hour forecast from a third-party API.
 
 Here's a breakdown of the skills demonstrated in this project:
 
-✅ HTML5
+##✅ HTML5
+
 Structured a responsive single-page application using semantic HTML.
 
 Created user interface components including an input field, buttons, image container, and a footer.
 
 Implemented a clear title and placeholder text for a user-friendly experience.
 
-✅ CSS3
+##✅ CSS3
+
 Designed a clean and modern interface with a custom color scheme.
 
 Used Flexbox for layout positioning and alignment of elements like the hourly forecast.
@@ -22,7 +24,8 @@ Styled conditionally visible elements, such as the weather icon, using the displ
 
 Utilized custom CSS properties (variables) for maintainability and consistency.
 
-✅ JavaScript (Vanilla JS)
+##✅ JavaScript (Vanilla JS)
+
 Used DOM manipulation to interact with user input and dynamically update the interface with weather information.
 
 Implemented functions to fetch data, handle user input, and display the current weather and a 5-interval hourly forecast.
@@ -31,14 +34,16 @@ Handled user input for city search and implemented a keydown event listener to a
 
 No external libraries or frameworks—this project showcases a strong grasp of core JS concepts.
 
-✅ API Integration
+##✅ API Integration
+
 Connected to the OpenWeatherMap API to fetch both current weather and forecast data.
 
 Handled asynchronous data retrieval using the fetch() API and JavaScript Promises.
 
 Managed API responses, including error handling for invalid cities or network issues.
 
-✅ UX/UI Principles
+##✅ UX/UI Principles
+
 Provided interactive feedback to the user, such as an alert for an empty input field.
 
 Implemented a simple and intuitive layout that clearly separates the current weather from the hourly forecast.
